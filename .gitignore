@@ -1,0 +1,134 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# =====================
+# Virtual Environments
+# =====================
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# =====================
+# IDEs & Editors
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# OS Generated Files
+# =====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =====================
+# Model Files (Large)
+# =====================
+*.h5
+*.keras
+*.pb
+*.onnx
+*.pt
+*.pth
+saved_model/
+checkpoints/
+
+# =====================
+# Data Files
+# =====================
+data/
+data_masks/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.npy
+*.npz
+!figures/*.png
+
+# =====================
+# Logs & Cache
+# =====================
+logs/
+*.log
+.cache/
+*.tfevents.*
+events.out.*
+
+# =====================
+# TensorFlow/Keras
+# =====================
+*.ckpt
+*.ckpt.*
+checkpoint
+.tensorboard/
+
+# =====================
+# Temporary Files
+# =====================
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# =====================
+# Secrets & Config
+# =====================
+.env
+.env.local
+*.pem
+*.key
+config.ini
+secrets.yaml
+
+# =====================
+# Google Colab
+# =====================
+sample_data/
+.config/
